@@ -12,9 +12,9 @@ int main()
 	
 for(int i=0; i<k; i++)
 	{
-		cout<<"Enter the Name ";
+		cout<<"Enter student Name ";
 		cin>>name[b];
-		cout<<"Enter the marks ";
+		cout<<"Enter his/her marks ";
 		cin>>marks[a];		
 		b=b+1;
 		a=a+1;
