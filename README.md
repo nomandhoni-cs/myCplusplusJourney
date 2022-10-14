@@ -18,3 +18,5 @@ C was the language before C++ to write close to hardware program, but C didn't h
 C++ offers more libary than C, it offers one of the great libary called STL (Standard Template Libbary) which can be used in CP and software development.
 ##### Object Oriented Programming
 C++ Offers you to do Object Oriented Programming and that's why this is called C++.
+
+- Learned about buffer: If you press input `10 11` like this in a space between, the program will take the value of first variable 10 and second variable will take value 11.
