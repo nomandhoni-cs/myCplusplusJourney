@@ -27,3 +27,15 @@ C++ Offers you to do Object Oriented Programming and that's why this is called C
 above `z = x++` means `z = x; x = x + 1;`
 ``` int x = 10; int z = ++x; cout << x << " " << z; // 12 12 ```
 above `z = ++x` means ` x = x + 1; z = x;`
+- `static_cast<double>x/y`
+```
+int main
+{
+int x = 10, y = 20
+double z = x / y;
+cout << z; // 0
+}
+```
+in avobe code output will be 0 when operation between the integer then It will give integer output.
+if you want to solve that problem you have to use this.
+``` double z = static_cast<double> x / y;```
