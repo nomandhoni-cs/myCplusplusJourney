@@ -19,4 +19,11 @@ C++ offers more libary than C, it offers one of the great libary called STL (Sta
 ##### Object Oriented Programming
 C++ Offers you to do Object Oriented Programming and that's why this is called C++.
 
+### Basics
 - Learned about buffer: If you press input `10 11` like this in a space between, the program will take the value of first variable 10 and second variable will take value 11.
+- `sizeof()` operator gives you how much byte is a variable in a compiler.
+- Unary Operator `++` here 
+``` int x = 10; int z = x++; cout << x << " " << z; // 11 10 ```
+above `z = x++` means `z = x; x = x + 1;`
+``` int x = 10; int z = ++x; cout << x << " " << z; // 12 12 ```
+above `z = ++x` means ` x = x + 1; z = x;`
