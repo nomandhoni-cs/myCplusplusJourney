@@ -39,3 +39,17 @@ cout << z; // 0
 in avobe code output will be 0 when operation between the integer then It will give integer output.
 if you want to solve that problem you have to use this.
 ``` double z = static_cast<double> x / y;```
+or you can use
+``` double z = (double) x/y``` to get output 0.5
+- `+=` Operator here `x += 10` means
+`x = x + 10;` and you can use `*=, /=, -=` like same way as above.
+- Coma operator `,`
+```
+{
+    int x = 1, y = 2, z = 3, a;
+    a = (x, y, z); 
+    cout << a; // 3
+    return 0;
+}
+```
+Here `,` operator runs for left to right and it compares and first 2 value and it assiggn itself the second value.
